@@ -1,0 +1,118 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Handjet:wght@200;300;500&family=Josefin+Sans:wght@400;700&family=Oswald:wght@200&family=REM:ital,wght@1,100&display=swap');
+
+
+html{
+    padding: 0;
+    margin: 0;
+}
+body{
+    /* background-image:url(16340578_v796-nunny-03b.jpg); */
+    background-color: blueviolet;
+    /* color: aliceblue; */
+    color: rgb(10, 10, 110);
+    
+}
+h2{
+    /* text-align: center; */
+    /* padding-right: 30px; */
+    padding-left: 30px;
+    padding-top: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.container input{
+    padding-left: 30px;
+    margin-left: 30px;
+    height: 42px;
+    width: 300px;
+    /* border-start-start-radius: 15px;
+    border-bottom-left-radius: 15px; */
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(215, 230, 242);
+    
+}
+.container-sec{
+    background-color: aliceblue;
+    width: 500px;
+    height: 320px;
+    border-radius: 10px;
+    
+}
+
+
+.container .btn{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 25px;
+    background-color: rgb(255, 106, 0);
+    color: aliceblue;
+    font-weight: 700;
+    border-color: rgb(255, 106, 0);
+    border: none;
+    cursor: pointer;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    
+}
+.icon-1{
+    height: 28px;
+}
+
+ul li{
+    /* text-decoration: none; */
+    list-style: none;
+    padding: 12px 8px 11px 39px;
+    font-size: 17px;
+    /* user-select: none; */
+    cursor: pointer;
+    position: relative;
+    
+
+
+}
+ul li::before{
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    height: 22px;
+    width: 22px;
+    background-image: url(unchecked.png);
+    background-size: cover;
+    background-position: center;
+    top: 12px;
+    left: 8px;
+}
+ul li.checked{
+    text-decoration: line-through;
+    color: #555;
+}
+ul li.checked::before{
+    background-image: url(checked.png);
+}
+
+ul li span{
+    position: absolute;
+    width: 40px;
+    top: 3px;
+    right: 15px;
+    height: 40px;
+    font-size: 29px;
+    color: #555;
+    line-height: 40px;
+    text-align: center;
+
+}
+ul li span:hover{
+    background-color: #e7e9eb;
+    border-radius: 50%;
+    cursor: pointer;
+}
