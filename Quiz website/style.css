@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+body {
+    background-color: plum;
+}
+.adjust{
+    display: flex;
+    justify-content: center;
+    
+}
+.main-box{
+   background-color: azure;
+    height: 34rem;
+    width: 37rem;
+    margin-top: 5rem; 
+    padding: 2rem;
+    border-radius: 1em;
+    max-width: 600px;
+    box-shadow:  5px 5px 8px grey;
+
+}
+.main-box h1{
+    border-bottom: 1px solid black;
+    padding-left: 7.4em;
+    margin-bottom: 0.3em;
+    
+}
+.btn{
+    width: 100%;
+    padding: 14px;
+    margin-top: 2rem;
+    text-align: left;
+    border-radius: 0.4em;
+    background-color: azure;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.btn:hover:not([disabled]){
+    background-color: #023047;
+    color: aliceblue;
+    font-weight: bold;
+}
+.btn:disabled{
+    cursor: no-drop;
+}
+.next{
+    padding-left: 4.5em;
+    padding-right: 4.5em;
+    padding-top: 0.6em ;
+    padding-bottom: 0.6em ;
+    /* font-weight: bold; */
+    margin-top: 1em;
+    cursor: pointer;
+    margin-left: 10.4rem;
+    background-color: #06608d;
+    color: azure;
+font-size: medium;
+font-weight: 600
+   
+
+}
+.next:hover{
+    background-color: #002d43;
+    
+}
+.correct{
+    background-color: rgb(66, 197, 66);
+}
+.incorrect{
+    background-color: rgb(213, 80, 80);
+}
+.incorrect:hover{
+    background-color: rgb(213, 80, 80);
+}
+.correct:hover{
+    background-color: rgb(66, 197, 66);
+}
